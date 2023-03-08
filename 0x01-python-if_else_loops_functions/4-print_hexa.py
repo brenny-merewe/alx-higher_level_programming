@@ -1,3 +1,6 @@
 #!/usr/bin/python3
-for i, element in enumerate(range(0, 99)):
-    print(f"{i+1}={hex(element).format(i)}")
+# Author - Godswill Kalu
+
+"""Print numbers 0 to 98 in decimal and hexadecimal."""
+for number in range(0, 99):
+    print("{} = {}".format(number, hex(number)))
