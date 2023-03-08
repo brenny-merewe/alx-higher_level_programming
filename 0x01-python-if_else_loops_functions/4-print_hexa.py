@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-for i in range ( 0, 99):
-    print(hex(i).format(i))
+for i, element in enumerate(range(0, 99)):
+    print(f"{i+1}={hex(element).format(i)}")
